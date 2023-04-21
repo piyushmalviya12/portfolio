@@ -1,0 +1,85 @@
+.personal-details-section {
+    background-color: #f8f9fa;
+    padding: 80px 0;
+  }
+  
+  .personal-details-text a{
+    color: #333;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+  }
+  /* .personal-details-text button a{
+    background-color: burlywood;
+    text-decoration-color: burlywood;
+   
+  } */
+  .section-title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #343a40;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .personal-details-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .personal-details-item {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .personal-details-item i {
+    font-size: 28px;
+    color: #343a40;
+    margin-right: 20px;
+  }
+  
+  .personal-details-label {
+    font-size: 18px;
+    font-weight: 700;
+    color: #343a40;
+    margin-bottom: 5px;
+  }
+  
+  .personal-details-value {
+    font-size: 16px;
+    font-weight: 400;
+    color: #6c757d;
+    margin: 0;
+  }
+  
+  .personal-details-hobbies {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .personal-details-hobby {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .personal-details-hobby img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .personal-details-hobby p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #6c757d;
+    margin: 0;
+  }
+  
